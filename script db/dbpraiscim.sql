@@ -31,6 +31,13 @@ CREATE TABLE IF NOT EXISTS `docentes` (
   PRIMARY KEY (`id`)
 );
 
+CREATE TABLE `arquivos_blob` (
+  `id` int(11) NOT NULL,
+  `path_arquivo` varchar(250) DEFAULT NULL,
+  `tipo_arquivo` varchar(250) DEFAULT NULL,
+  `data_upload` blob DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 INSERT INTO `docentes` (`id`, `Username`, `Nome`, `senha`) VALUES
 (null, 'ISCIM.PF5555', 'Alberto Nhantumbo', 'ISN4A'),
 (null, 'ISCIM.PF2222', 'Muhammad Lorgat', 'ISN4B');
