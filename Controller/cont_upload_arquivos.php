@@ -19,9 +19,9 @@
     $arquivos = $_FILES['arquivo'];
     $arquivoNovo = explode('.', $arquivos['name']);
     if (isset($_POST['acao'])) {
-        if ($arquivoNovo[sizeof($arquivoNovo) - 1] != 'pdf') {
-            die("Nao pode fazer upload deste tipo de arquivo");
-        } else {
+        //if ($arquivoNovo[sizeof($arquivoNovo) - 1] != 'pdf') {
+           // die("Nao pode fazer upload deste tipo de arquivo");
+        //} else {
             $name = $_FILES['arquivo']['name'];
             $type = $_FILES['arquivo']['type'];
             $data = file_get_contents($_FILES['arquivo']['tmp_name']);
@@ -31,7 +31,7 @@
             $stmt->bindParam(3, $data);
             $stmt->execute();
             
-        }
+        //}
     }
     
     ?>

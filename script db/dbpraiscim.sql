@@ -1,6 +1,7 @@
-create database dbpraiscim;
+DROP DATABASE IF EXISTS dbpraiscim;
+CREATE DATABASE dbpraiscim;
 
-use dbpraiscim;
+USE dbpraiscim;
 
 DROP TABLE IF EXISTS `usuarios`;
 CREATE TABLE IF NOT EXISTS `usuarios` (
@@ -13,14 +14,6 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 INSERT INTO `usuarios` (`Codigo`, `Password`) VALUES
 ('2018071', '2018071'),
 ('2018100', '2018100');
-
-DROP TABLE IF EXISTS `arquivos`;
-CREATE TABLE IF NOT EXISTS `arquivos`(
-	id int auto_increment,
-    path_arquivo varchar(250),
-    data_upload datetime,
-    primary key(`id`)
-);
 
 DROP TABLE IF EXISTS `docentes`;
 CREATE TABLE IF NOT EXISTS `docentes` (
