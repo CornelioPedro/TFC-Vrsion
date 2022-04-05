@@ -24,7 +24,8 @@
                             <td><label for="txPassword" class="control-label" style="height: 55px;font-size: 40px; text-align: center;color: #E45225">Estudantes.</label></td>
                         </tr>
                         <tr>
-                            <td><a href="login_Estudantes.php">Alunos</a></td>
+                            <!--td><a href="login_Estudantes.php">Alunos</a></td-->
+                            <td><a href="index_Estudantes.php">Alunos</a></td>
                         </tr>
                     </table>    
                 </form>
@@ -35,7 +36,7 @@
         </div>
 -->        <div style="height: 50px;float: end" class="container">
             <center>    
-                <p style="color: #E45225">©Copyright 2021 SEI</p>
+                <p style="color: #E45225">©Copyright 2022 SEI</p>
             </center>
         </div>
         <script type="text/javascript" src="jquery/jquery-1.10.2.min.js" </script>

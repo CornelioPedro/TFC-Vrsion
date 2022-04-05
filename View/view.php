@@ -10,5 +10,5 @@ $stat->bindParam(1, $id);
 $stat->execute();
 $row = $stat->fetch();
 header('Content-Type:' . $row['tipo_arquivo']);
-//header('Content-Type' . $row['path_arquivo']);
+
 echo $row['data_upload'];

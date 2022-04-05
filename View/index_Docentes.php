@@ -92,7 +92,7 @@ include '../Controller/protect.php';
                     <div class="profile-details">
                         <img src="../assets/imgs/ping.jpg" alt="profileImg">
                         <div class="name_job">
-                            <div class="name"><?php echo $_SESSION['usuario'];  ?></div>
+                            <div class="name"><?php echo $_SESSION['Username'];?></div>
                             <div class="job">Informatico</div>
                         </div>
                     </div>

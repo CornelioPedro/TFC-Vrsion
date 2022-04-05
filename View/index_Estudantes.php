@@ -1,5 +1,5 @@
 <?php
-include '../Controller/protect.php';
+//include '../Controller/protect.php';
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ include '../Controller/protect.php';
         <link >
         <script>
             function carregarArq() {
-                $("#conteudo").load("view_arquivos.php");
+                $("#conteudo").load("view_arq.php");
             }
         </script>
     </head>

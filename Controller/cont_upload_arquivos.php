@@ -11,8 +11,8 @@
         <script src="../Datatable/datatables.min.js"></script>
     </head>
     <?php
-    //include ("../View/upload_arquivo.php");
-    include ("../View/view_arquivos.php");
+    include ("../View/upload_arquivo.php");
+    //include ("../View/view_arquivos.php");
     include ("../Model/conexao.php");
     $dbh = new PDO("mysql:host=localhost; dbname=dbpraiscim", "root", "");
     $msg = false;
@@ -20,7 +20,7 @@
     $arquivoNovo = explode('.', $arquivos['name']);
     if (isset($_POST['acao'])) {
         //if ($arquivoNovo[sizeof($arquivoNovo) - 1] != 'pdf') {
-           // die("Nao pode fazer upload deste tipo de arquivo");
+            //die("Nao pode fazer upload deste tipo de arquivo");
         //} else {
             $name = $_FILES['arquivo']['name'];
             $type = $_FILES['arquivo']['type'];

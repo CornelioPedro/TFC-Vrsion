@@ -41,5 +41,5 @@
             ?>
         </ol>
         <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-            <span class="glyphicon glyphicon-save"></span> &nbsp; <a href="../View/index_Docentes.php">Voltar Pagina</a> </button>
+            <span class="glyphicon glyphicon-save"></span> &nbsp; <a href="../View/index_Estudantes.php">Voltar Pagina</a> </button>
     </div>
