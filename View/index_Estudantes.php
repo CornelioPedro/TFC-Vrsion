@@ -47,9 +47,10 @@
                 </li>
                 <li class="profile">
                     <div class="profile-details">
+                        
                         <img src="../assets/imgs/ping.jpg" alt="profileImg">
                         <div class="name_job">
-                            <div class="name"><?php echo $_SESSION['Codigo']; ?></div>
+                            <!--div class="name"><?php echo $_SESSION['Codigo']; ?></div-->
                             <div class="job">Informatico</div>
                         </div>
                     </div>

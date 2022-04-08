@@ -3,7 +3,7 @@ CREATE DATABASE dbpraiscim;
 
 USE dbpraiscim;
 
-DROP TABLE IF EXISTS `administrator`;
+DROP TABLE IF EXISTS `administrador`;
 CREATE TABLE IF NOT EXISTS `administrador` (
   `id` int auto_increment,
   `nomeAdmin` varchar(200) NOT NULL,
@@ -11,6 +11,9 @@ CREATE TABLE IF NOT EXISTS `administrador` (
   `password` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `administrador` (`id`,`nomeAdmin`,`usernameAdmin`,`password`) VALUES
+(NULL,'Cornelio Marcelino','admin','admin');
 
 DROP TABLE IF EXISTS `docentes`;
 CREATE TABLE IF NOT EXISTS `docentes` (
