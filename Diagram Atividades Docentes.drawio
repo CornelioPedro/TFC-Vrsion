@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T13:19:23.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="7707jbn1xU5CcgEcyaCq" version="17.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T13:22:08.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="wvk8oceFJOcns9_qzRo_" version="17.1.4" type="github">
   <diagram id="msXhtBopUcJOoAHXw3Rb" name="Page-1">
     <mxGraphModel dx="1102" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,10 +52,33 @@
         <mxCell id="ENy0YUIahURjMKUibw4l-12" value="Requisitar o trabalho" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="500" y="230" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ENy0YUIahURjMKUibw4l-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="ENy0YUIahURjMKUibw4l-12" parent="1">
+        <mxCell id="ENy0YUIahURjMKUibw4l-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="ENy0YUIahURjMKUibw4l-12" parent="1" target="ENy0YUIahURjMKUibw4l-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="280" />
+              <mxPoint x="260" y="280" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ENy0YUIahURjMKUibw4l-14" value="Enviar trabalho" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ENy0YUIahURjMKUibw4l-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="ENy0YUIahURjMKUibw4l-14" parent="1" target="ENy0YUIahURjMKUibw4l-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENy0YUIahURjMKUibw4l-16" value="Gravar Trabalho" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ENy0YUIahURjMKUibw4l-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="ENy0YUIahURjMKUibw4l-16" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ENy0YUIahURjMKUibw4l-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="545" y="430" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
