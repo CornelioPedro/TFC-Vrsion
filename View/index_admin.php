@@ -49,30 +49,9 @@
 
         </style>
         <script>
-            function mostra() {
-                if ($("#sub-menu").is(':hidden')) {
-                    $("#sub-menu").slideDown(200);
-                } else {
-                    $("#sub-menu").slideUp(200);
-                }
-            }
-
-            function carregavIP() {
-                $("#cx").load("vIP.php");
-            }
-            function carregavIU() {
-                $("#cx").load("vIU.php");
-            }
-            function carregarD() {
+            function carregarDocent(){
                 $("#cx").load("formulario.php");
             }
-            function carregavDI() {
-                $("#cx").load("vDI.php");
-            }
-            function carregavGR() {
-                $("#cx").load("vGR.php");
-            }
-
         </script>
         <script type="text/javascript" src="jquery/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -93,12 +72,12 @@
             }
             ?>
             <br/>
-            <a href="logout.php" style="float: right;color: white">Sair</a>
+            <a href="../Controller/logout.php" style="float: right;color: white">Sair</a>
         </div>
         <div class="container" style="height: 40px;background-color: #E44228" id="nav">
             <ul>
                 <li>
-                    <a onclick="carregarD()">Docentes</a>
+                    <a onclick="carregarDocent()">Docentes</a>
                 </li>
 
                 <li> <a onmouseover="mostra()" style="text-decoration: none">Configuracoes</a>
