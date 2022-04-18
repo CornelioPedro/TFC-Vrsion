@@ -36,7 +36,8 @@ include '../Controller/protect.php';
             }
             
             function carregarArq() {
-                $("#conteudo").load("view_arquivos.php");
+//                $("#conteudo").load("view_arquivos.php");
+                $("#conteudo").load("view_Cursos.php");
             }
         </script>
     </head>

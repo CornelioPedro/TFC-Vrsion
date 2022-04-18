@@ -9,12 +9,12 @@
         <script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
         <script src="../jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
         <script src="../Datatable/datatables.min.js"></script>
-        <script>
+<!--        <script>
            
             function carregarView() {
                 $("#conteudo").load("index_Docentes.php");
             }
-        </script>
+        </script>-->
     </head>
 
     <div class="container" >
