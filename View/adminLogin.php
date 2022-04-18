@@ -11,21 +11,26 @@
                  position: absolute;top: 50%;width: 450px;">
                 <br/>
                 <br/>
-                <label style="height: 50px;color: #E45225">Inicie aqui a sua sessão</label>
-                <form class="form-horizontal" method="post" action="../Controller/loginController.php">
+                <!--label style="height: 50px;color: #E45225">Inicie aqui a sua sessão</label-->
+                <label for="txCodigo" class="control-label" style="height: 55px;font-size: 40px; text-align: center; color: #E45225 ">Administrador</label>
+                <form class="form-horizontal" method="post" action="../Controller/loginController_Admin.php">
                     <table class="table-responsive">
                         <tr>
-                            <td><label for="txCodigo" class="control-label" style="height: 55px;font-size: 40px; text-align: center;color: #E45225 ">Docentes.</label></td>
+                            <td><label for="txUsername" class="control-label" style="height: 50px">Username</label></td>
                         </tr>
                         <tr>
-                            <td><a href="login_Docentes.php">Docentes</a></td>
+                            <td><input placeholder="Insira aqui o nome" name="txUsername" type="text" style="height: 50px" class="form-control" required></td>
                         </tr>
                         <tr>
-                            <td><label for="txPassword" class="control-label" style="height: 55px;font-size: 40px; text-align: center;color: #E45225">Estudantes.</label></td>
+                            <td><label for="txPassword" class="control-label" style="height: 50px">Password</label></td>
                         </tr>
                         <tr>
-                            <!--td><a href="login_Estudantes.php">Alunos</a></td-->
-                            <td><a href="index_Estudantes.php">Alunos</a></td>
+                            <td><input placeholder="Insira aqui a Password" name="txPassword" type="password" style="height: 50px" class="form-control" required></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br/><button type="submit" name="btnsave" class="form-control" style="color: white;background-color: #E45225;height: 50px">Iniciar Sessao</button>
+                            </td>
                         </tr>
                     </table>    
                 </form>
@@ -36,7 +41,7 @@
         </div>
 -->        <div style="height: 50px;float: end" class="container">
             <center>    
-                <p style="color: #E45225">©Copyright 2022 SEI <a href="adminLogin.php">ADMIN</a></p>
+                <p style="color: #E45225">©Copyright 2021 SEI</p>
             </center>
         </div>
         <script type="text/javascript" src="jquery/jquery-1.10.2.min.js" </script>
@@ -44,3 +49,4 @@
         <script type="text/javascript" src="bootstrap/js/npm.js" </script>
     </body>
 </html>
+

@@ -1,5 +1,5 @@
 <?php
-include '../Controller/protect.php';
+//include '../Controller/protect.php';
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ include '../Controller/protect.php';
         <link >
         <script>
             function carregarArq() {
-                $("#conteudo").load("view_arquivos.php");
+                $("#conteudo").load("view_arq.php");
             }
         </script>
     </head>
@@ -47,9 +47,10 @@ include '../Controller/protect.php';
                 </li>
                 <li class="profile">
                     <div class="profile-details">
+                        
                         <img src="../assets/imgs/ping.jpg" alt="profileImg">
                         <div class="name_job">
-                            <div class="name"><?php echo $_SESSION['Codigo']; ?></div>
+                            <!--div class="name"><?php echo $_SESSION['Codigo']; ?></div-->
                             <div class="job">Informatico</div>
                         </div>
                     </div>

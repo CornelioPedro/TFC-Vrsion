@@ -24,6 +24,10 @@ include '../Controller/protect.php';
         <script src="../Datatable/datatables.min.js"></script>
         <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
         <script>
+
+            function carregarInit() {
+                $("#conteudo").load("pagina_inicial.php");
+            }
             function carregavCof() {
                 $("#conteudo").load("Configuracoes.php");
             }
@@ -32,7 +36,8 @@ include '../Controller/protect.php';
             }
             
             function carregarArq() {
-                $("#conteudo").load("view_arquivos.php");
+//                $("#conteudo").load("view_arquivos.php");
+                $("#conteudo").load("view_Cursos.php");
             }
         </script>
     </head>
@@ -50,19 +55,19 @@ include '../Controller/protect.php';
                     <span class="tooltip">pesqisar</span>
                 </li>
                 <li>
-                    <a onclick="">
+                    <a onclick="carregarInit()">
                         <i class='bx-menu' ></i>
                         <span class="links_name">Pagina Inicial </span>
                     </a>
                     <span class="tooltip">Pagina Inicial </span>
                 </li>
-                <li>
+                <!--li>
                     <a href="#">
                         <i class='bx bx-user' ></i>
                         <span class="links_name">Utilizador</span>
                     </a>
                     <span class="tooltip">Utilizador</span>
-                </li>
+                </li-->
                 <li>
                     <a onclick="carregarArq()">
                         <i class='bx bx-folder' ></i>
@@ -88,7 +93,7 @@ include '../Controller/protect.php';
                     <div class="profile-details">
                         <img src="../assets/imgs/ping.jpg" alt="profileImg">
                         <div class="name_job">
-                            <div class="name"><?php echo $_SESSION['usuario'];  ?></div>
+                            <div class="name"><?php echo $_SESSION['Username'];?></div>
                             <div class="job">Informatico</div>
                         </div>
                     </div>

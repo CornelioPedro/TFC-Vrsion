@@ -28,7 +28,7 @@ if (isset($_POST["txUsername"]) || isset($_POST["txPassword"])) {
             }
 
             $_SESSION['id'] = $usuario['id'];
-            $_SESSION['usuario'] = $usuario['usuario'];
+            $_SESSION['Username'] = $usuario['Username'];
             header("Location: ../View/index_Docentes.php");
         } else {
             if (!isset($_SESSION['id'])) {

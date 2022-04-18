@@ -1,26 +1,19 @@
-create database dbpraiscim;
+DROP DATABASE IF EXISTS dbpraiscim;
+CREATE DATABASE dbpraiscim;
 
-use dbpraiscim;
+USE dbpraiscim;
 
-DROP TABLE IF EXISTS `usuarios`;
-CREATE TABLE IF NOT EXISTS `usuarios` (
+DROP TABLE IF EXISTS `administrador`;
+CREATE TABLE IF NOT EXISTS `administrador` (
   `id` int auto_increment,
-  `Codigo` varchar(20) NOT NULL,
-  `Password` varchar(20) NOT NULL,
+  `nomeAdmin` varchar(200) NOT NULL,
+  `usernameAdmin` varchar(200) NOT NULL,
+  `password` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-INSERT INTO `usuarios` (`Codigo`, `Password`) VALUES
-('2018071', '2018071'),
-('2018100', '2018100');
-
-DROP TABLE IF EXISTS `arquivos`;
-CREATE TABLE IF NOT EXISTS `arquivos`(
-	id int auto_increment,
-    path_arquivo varchar(250),
-    data_upload datetime,
-    primary key(`id`)
-);
+INSERT INTO `administrador` (`id`,`nomeAdmin`,`usernameAdmin`,`password`) VALUES
+(NULL,'Cornelio Marcelino','admin','admin');
 
 DROP TABLE IF EXISTS `docentes`;
 CREATE TABLE IF NOT EXISTS `docentes` (
@@ -31,10 +24,16 @@ CREATE TABLE IF NOT EXISTS `docentes` (
   PRIMARY KEY (`id`)
 );
 
+CREATE TABLE `arquivos_blob` (
+  `id` int(11) NOT NULL,
+  `path_arquivo` varchar(250) DEFAULT NULL,
+  `tipo_arquivo` varchar(250) DEFAULT NULL,
+  `data_upload` blob DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 INSERT INTO `docentes` (`id`, `Username`, `Nome`, `senha`) VALUES
-(null, 'ISCIM.PF5555', 'Alberto Nhantumbo', 'ISN4A'),
-(null, 'ISCIM.PF2222', 'Muhammad Lorgat', 'ISN4B');
+(null, '2018071', 'Alberto Nhantumbo', 'ISN4A'),
+(null, '2018543', 'Muhammad Lorgat', 'ISN4B');
 
 describe docentes;
-
 select * from docentes;
