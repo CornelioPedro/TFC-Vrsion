@@ -9,26 +9,60 @@
         <script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
         <script src="../jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
         <script src="../Datatable/datatables.min.js"></script>
+        <style>
+            a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            .form-control{
+                padding: -3px 131px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: -2px 0px;
+                cursor: pointer;
+            }
+        </style>
     </head>
 
     <div class="container" >
         <p><h1>Visualizacao de arquivos</h1></p>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">COMUNICAÇÃO E RELAÇÕES EMPRESARIAIS</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">CONTABILIDADE E AUDITORIA</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">DIREITO</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">GESTÃO EMPRESARIAL</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">GESTÃO DE RECURSOS HUMANOS</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">INFORMÁTICA DE SISTEMA</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">INFORMÁTICA DE GESTÃO</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">MARKETING</a> </button>
-    <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/index_Estudantes.php">MULTIMÉDIA</a> </button>
+    <table border="0">
+        <thead> 
+            <tr>
+                <th><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">COMUNICAÇÃO E RELAÇÕES EMPRESARIAIS</a> </button></th>
+                <th><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">CONTABILIDADE E AUDITORIA</a> </button></th>
+                <th><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">DIREITO</a> </button></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">GESTÃO EMPRESARIAL</a> </button></td>
+                <td><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">GESTÃO DE RECURSOS HUMANOS</a> </button></td>
+                <td><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">INFORMÁTICA DE SISTEMA</a> </button></td>
+            </tr>
+            <tr>
+                <td><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">INFORMÁTICA DE GESTÃO</a> </button></td>
+                <td><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="#">MARKETING</a> </button></td>
+                <td><br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
+                        <span class="glyphicon glyphicon-education"></span> &nbsp; <a href="../View/#">MULTIMÉDIA</a> </button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
 </div>

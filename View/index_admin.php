@@ -77,7 +77,7 @@
         <div class="container" style="height: 40px;background-color: #E44228" id="nav">
             <ul>
                 <li>
-                    <a onclick="carregarDocent()">Docentes</a>
+                    <a href="formulario.php" onclick="carregarDocent()">Docentes</a>
                 </li>
 
                 <li> <a onmouseover="mostra()" style="text-decoration: none">Configuracoes</a>

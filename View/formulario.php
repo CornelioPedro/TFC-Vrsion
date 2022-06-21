@@ -12,12 +12,8 @@
         <script src="../Datatable/datatables.min.js"></script>
         </head>
      
+        <body>
 
-     <div>
-            <h1 id="titulo">Cadastro de Docentes</h1>
-            <p id="subtitulo">Complete as informações</p>
-            <br>
-        </div>
 
         <!-- Início do formulário -->
         <form>
@@ -96,6 +92,9 @@
             </div>
 
             <!-- Botão para enviar o formulário -->
-            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+            <button class="botao" type="submit" onsubmit="">Voltar</button>
+            <button class="botao" type="submit" onsubmit="">Concluído</button>
 
         </form>
+        </body>
+     
