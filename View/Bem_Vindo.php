@@ -11,17 +11,17 @@
                  position: absolute;top: 50%;width: 450px;">
                 <br/>
                 <br/>
-                <label style="height: 50px;color: #E45225">Inicie aqui a sua sessão</label>
+                <label style="height: 50px;color: #039145">Inicie aqui a sua sessão</label>
                 <form class="form-horizontal" method="post" action="../Controller/loginController.php">
                     <table class="table-responsive">
                         <tr>
-                            <td><label for="txCodigo" class="control-label" style="height: 55px;font-size: 40px; text-align: center;color: #E45225 ">Docentes.</label></td>
+                            <td><label for="txCodigo" class="control-label" style="height: 55px;font-size: 40px; text-align: center;color: #039145 ">Docentes.</label></td>
                         </tr>
                         <tr>
                             <td><a href="login_Docentes.php">Docentes</a></td>
                         </tr>
                         <tr>
-                            <td><label for="txPassword" class="control-label" style="height: 55px;font-size: 40px; text-align: center;color: #E45225">Estudantes.</label></td>
+                            <td><label for="txPassword" class="control-label" style="height: 55px;font-size: 40px; text-align: center;color: #039145">Estudantes.</label></td>
                         </tr>
                         <tr>
                             <!--td><a href="login_Estudantes.php">Alunos</a></td-->
@@ -36,7 +36,7 @@
         </div>
 -->        <div style="height: 50px;float: end" class="container">
             <center>    
-                <p style="color: #E45225">©Copyright 2022 SEI <a href="adminLogin.php">ADMIN</a></p>
+                <p style="color: #039145">©Copyright 2022 SEI <a href="adminLogin.php">ADMIN</a></p>
             </center>
         </div>
         <script type="text/javascript" src="jquery/jquery-1.10.2.min.js" </script>
