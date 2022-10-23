@@ -1,3 +1,4 @@
+<?php include_once '../Model/connect.php'; ?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -47,7 +48,7 @@
                 width: 14em;
                 /*height: 3em;*/
                 line-height: 1;
-                background: #5c6664;
+                background: #039145;
                 overflow: hidden;
                 border-radius: .25em;
                 margin: auto;
@@ -59,13 +60,17 @@
                 top: 0;
                 right: 0;
                 padding: 0 1em;
-                background: #e45225;
+                background: #039145;
                 cursor:pointer;
                 pointer-events:none;
                 transition:.25s all ease;
             }
             .select:hover::after {
                 color: #000000;
+            }
+            
+            .cursos{
+                color: black;
             }
         </style>    
     </head>
@@ -83,18 +88,10 @@
                 </tr>
                 <tr>
                     <td><input type="file" name="arquivo" id="file" class="form-control"></td>
-<!--                    <td>
-                        <select name="cursos" id="cursos">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                    </td>-->
                 </tr>
                 <br/>
                 <tr>
-                    <td><br/><button type="submit" name="acao" class="form-control" style="color: white;background-color: #E45225;height: 30px">
+                    <td><br/><button type="submit" name="acao" class="form-control" style="color: white;background-color: #039145;height: 30px">
                             <span class="glyphicon glyphicon-save"></span> &nbsp; Enviar Ficheiro</button>
                     </td>
                 </tr>
@@ -105,18 +102,21 @@
             </table>
         </form>
         <div class="select">
-            
-            <select name="format" id="format">
-                <option selected disabled>Selecione o Curso</option>
-                <option value="CRE">COMUNICAÇÃO E RELAÇÕES EMPRESARIAIS</option>
-                <option value="CAD">CONTABILIDADE E AUDITORIA</option>
-                <option value="DRI">DIREITO</option>
-                <option value="GED">GESTÃO EMPRESARIAL</option>
-                <option value="GRH">GESTÃO DE RECURSOS HUMANOS</option>
-                <option value="ISD">INFORMÁTICA DE SISTEMA</option>
-                <option value="IGD">INFORMÁTICA DE GESTÃO</option>
-                <option value="MRD">MARKETING</option>
-                <option value="MLD">MULTIMÉDIA</option>
+          
+            <select name="cursos">
+                <?php
+                    $con=conexao();
+                    #Consulta na base de dados
+                    $sql='SELECT * FROM Cursos';
+                    $query= mysqli_query($con, $sql);
+                    while ($row= mysqli_fetch_array($query)){
+                        $idcursos=$row['id'];
+                        $nomeCursos=$row['nome_curso'];
+                ?>
+                    <option value="<?php echo $idcursos; ?>"> <?php echo $nomeCursos?></option>
+                <?php
+                }
+                ?>
             </select>
         </div>
         <p></p>

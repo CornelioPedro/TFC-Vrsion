@@ -27,7 +27,7 @@ include '../Controller/protect.php';
         <section class="home-section">
             <div style="height: 80px"></div>
             <div id="conteudo" class="text">
-                <center><img src="../imagens/iscim.png"/>
+                <center><img src="../imagens/logo1.png"/>
                     <p>Bem-vindo! Docente ao sistema de gestão de avaliações e trabalhos científicos.</p>
                     <p>Desejamos que essa plataforma seja um veículo para que os alunos tenham facilidade de 
                         realizar trabalhos e a se preparem para os testes e exames. 

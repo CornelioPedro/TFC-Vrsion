@@ -15,7 +15,15 @@
                 $("#conteudo").load("index_Docentes.php");
             }
         </script>-->
+        <style>
+            .form-control li a {
+                color: #fff;
+            } 
+            
+        </style>
     </head>
+    
+    
 
     <div class="container" >
         <!--
@@ -40,6 +48,6 @@
             }
             ?>
         </ol>
-        <br/><button type="submit" class="form-control"  style="color: white;background-color: #E45225;height: 30px">
-            <span class="glyphicon glyphicon-save"></span> &nbsp; <a href="../View/index_Estudantes.php">Voltar Pagina</a> </button>
+        <br/><button type="submit" class="form-control"  style="color: white;background-color: #039145;height: 30px">
+            <span class="glyphicon glyphicon-save"></span> &nbsp; <a href="../View/index_Docentes.php">Voltar Pagina</a> </button>
     </div>

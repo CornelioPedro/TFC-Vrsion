@@ -12,6 +12,5 @@ if ($mysqli->connect_errno){
     echo 'Connect failed: '.$mysqli->connect_errno;
     exit();
 } else {
-    //echo 'Conectado com sucesso!!';
+    echo 'Conectado com sucesso!!';
 }
-        

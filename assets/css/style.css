@@ -251,6 +251,11 @@
 
 .container{
     text-align: center;
+    
+}
+
+div#container > p{
+    text-align: center;
 }
 
 
@@ -284,90 +289,4 @@ section {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-}
-.elementor-kit-587 {
-    --e-global-color-primary: #6EC1E4;
-    --e-global-color-secondary: #54595F;
-    --e-global-color-text: #7A7A7A;
-    --e-global-color-accent: #61CE70;
-    --e-global-color-5e5d5dd8: #4054B2;
-    --e-global-color-44c70dd4: #23A455;
-    --e-global-color-eea96ed: #000;
-    --e-global-color-53b5387e: #FFF;
-    --e-global-typography-primary-font-family: "Roboto";
-    --e-global-typography-primary-font-weight: 600;
-    --e-global-typography-secondary-font-family: "Roboto Slab";
-    --e-global-typography-secondary-font-weight: 400;
-    --e-global-typography-text-font-family: "Roboto";
-    --e-global-typography-text-font-weight: 400;
-    --e-global-typography-accent-font-family: "Roboto";
-    --e-global-typography-accent-font-weight: 500;
-}
-body, button, input, select, textarea {
-    color: #333;
-    font-family: "Lato", sans-serif;
-    line-height: 1.5;
-}
-body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-}
-:root {
-    --jp-carousel-primary-color: #fff;
-    --jp-carousel-primary-subtle-color: #999;
-    --jp-carousel-bg-color: #000;
-    --jp-carousel-bg-faded-color: #222;
-    --jp-carousel-border-color: #3a3a3a;
-}
-:root {
-    --swiper-navigation-size: 44px;
-}
-:root {
-    --swiper-theme-color: #007aff;
-}
-:root {
-    --page-title-display: block;
-}
-:root {
-    --swiper-navigation-size: 44px;
-}
-:root {
-    --swiper-theme-color: #007aff;
-}
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-html {
-    font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-.elementor *, .elementor :after, .elementor :before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.elementor *, .elementor :after, .elementor :before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }

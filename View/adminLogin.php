@@ -11,8 +11,8 @@
                  position: absolute;top: 50%;width: 450px;">
                 <br/>
                 <br/>
-                <!--label style="height: 50px;color: #E45225">Inicie aqui a sua sessão</label-->
-                <label for="txCodigo" class="control-label" style="height: 55px;font-size: 40px; text-align: center; color: #E45225 ">Administrador</label>
+                <!--label style="height: 50px;color: #039145">Inicie aqui a sua sessão</label-->
+                <label for="txCodigo" class="control-label" style="height: 55px;font-size: 40px; text-align: center; color: #039145 ">Administrador</label>
                 <form class="form-horizontal" method="post" action="../Controller/loginController_Admin.php">
                     <table class="table-responsive">
                         <tr>
@@ -29,7 +29,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <br/><button type="submit" name="btnsave" class="form-control" style="color: white;background-color: #E45225;height: 50px">Iniciar Sessao</button>
+                                <br/><button type="submit" name="btnsave" class="form-control" style="color: white;background-color: #039145;height: 50px">Iniciar Sessao</button>
                             </td>
                         </tr>
                     </table>    
@@ -41,7 +41,7 @@
         </div>
 -->        <div style="height: 50px;float: end" class="container">
             <center>    
-                <p style="color: #E45225">©Copyright 2021 SEI</p>
+                <p style="color: #039145">©Copyright 2021 SEI</p>
             </center>
         </div>
         <script type="text/javascript" src="jquery/jquery-1.10.2.min.js" </script>

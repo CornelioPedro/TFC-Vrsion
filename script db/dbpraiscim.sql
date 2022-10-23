@@ -18,12 +18,14 @@ INSERT INTO `administrador` (`id`,`nomeAdmin`,`usernameAdmin`,`password`) VALUES
 DROP TABLE IF EXISTS `docentes`;
 CREATE TABLE IF NOT EXISTS `docentes` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `Username` varchar(20) NOT NULL,
   `Nome` varchar(30) NOT NULL,
+  `Username` varchar(20) NOT NULL,
+  `email` varchar(250) NOT NULL,
   `senha` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
 );
 
+DROP TABLE IF EXISTS `arquivos_blob`;
 CREATE TABLE `arquivos_blob` (
   `id` int(11) NOT NULL,
   `path_arquivo` varchar(250) DEFAULT NULL,
